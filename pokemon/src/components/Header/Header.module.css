@@ -12,6 +12,12 @@ header{
 a{
     color: red;
     text-decoration: none;
+    padding: 8px;
+
+}
+a:hover{
+    color: white;
+    transition: all 0.2s;
 }
 
 ul li {
@@ -19,7 +25,11 @@ ul li {
     padding: 10px 20px;
     border-radius: 20px;
     color: red;
-    
+}
+
+ul li:hover{
+    background-color: red;
+    transition: 0.3s;
 }
 
 .menu ul{
